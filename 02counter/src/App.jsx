@@ -13,7 +13,11 @@ function App() {
     
     // console.log("value added ", Math.random());
     // counter = counter + 1;
-    fuckCounter(counter+1);
+    fuckCounter((prevCounter) => prevCounter + 1);
+    fuckCounter((prevCounter) => prevCounter + 1);
+    fuckCounter((prevCounter) => prevCounter + 1);
+    fuckCounter((prevCounter) => prevCounter + 1);
+
     console.log("clicked", counter);
     
   }
